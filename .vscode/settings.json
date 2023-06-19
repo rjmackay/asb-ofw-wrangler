@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/Users/robbie/.local/share/virtualenvs/ofxwrangling-H8i_olRh/bin/python",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.extraPaths": [
+    "/Users/robbie/.local/share/virtualenvs/ofxwrangling-H8i_olRh"
+  ]
+}

@@ -53,7 +53,7 @@ class OFXSwapper:
         file.write(header + message)
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(
         description="Swap name and memo fields in an OFX file."
     )
@@ -72,3 +72,7 @@ if __name__ == "__main__":
         swapper.write_file(open(args.input, "w"))
     else:
         swapper.write_file(sys.stdout)
+
+
+if __name__ == "__main__":
+    main()
